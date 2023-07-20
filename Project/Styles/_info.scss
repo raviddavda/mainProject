@@ -1,0 +1,39 @@
+.personal-info {
+  text-align: center;
+  margin: 10px;
+}
+
+.personal-info img {
+  width: 300px;
+  border-radius: 50%;
+  transition: border-radius .3s;
+}
+
+.personal-info img:hover {
+  border-radius: 5px;
+}
+
+.personal-info a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  background-color: $mainColor;
+  padding: 10px 20px;
+  border-radius: 35px;
+  color: black;
+  text-align: center;
+  transition: opacity .1s ease-in-out;
+}
+
+.personal-info a:hover {
+  opacity: 0.8;
+}
+
+.personal-info a img {
+  width: 25px;
+}
+
+@include mobile {
+  .personal-info img {
+    width: 150px;
+  }
+}

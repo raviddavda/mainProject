@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="he">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <link rel="stylesheet" href="./Styles/main.css">
+
+</head>
+
+<body>
+  <section dir="rtl" class="header sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light bg-gradient">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#main-page">ראשי</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#personal-info">אודות</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#gallery">גלריה</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">צור קשר</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="profile">
+        <a class="navbar-brand" href="#">Ravid Davda
+          <img src="./Images/profileface.png" alt="Ravid Davda" width="40" height="40"></a>
+      </div>
+    </nav>
+  </section>
+
+  <section id="main-page">
+    <div class="container-fluid intro">
+      <h1>תיק עבודות אישי</h1>
+      <p>
+        ברוכים הבאים לאתר של רביד דבדה. <br>
+        כאן תמצאו את כל העבודות שלי בנושאי HTML. <br>
+        שתהיה לכם שהייה נעימה!
+      </p>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="container-fluid d-flex justify-content-center flex-wrap gap-5 border-bottom border-top">
+      <div>
+        <img src="./Images/html.png" alt="HTML" title="HTML">
+      </div>
+      <div>
+        <img src="./Images/css.svg" alt="CSS" title="CSS">
+      </div>
+      <div>
+        <img src="./Images/bootstrap.png" alt="Bootstrap" title="Bootstrap">
+      </div>
+      <div>
+        <img src="./Images/sass.png" alt="SASS" title="Sass">
+      </div>
+      <div>
+        <img src="./Images/javascript.webp" alt="Java Script" title="JavaScript">
+      </div>
+    </div>
+  </section>
+
+  <section dir="rtl" id="personal-info" class="personal-info">
+    <div class="container-fluid">
+      <img src="./Images/profileface.png" alt="Ravid Davda">
+      <h2>קצת עליי</h2>
+      <p>
+        אני רביד דבדה מבאר שבע, סטודנט FULLSTACK. <br>
+        תחביביי הם נגינה ומשחקי מחשב. <br>
+        מאז ומתמיד התעניינתי בעולם התוכנות והמחשבים.
+      </p>
+      <a href="רביד דבדה.pdf" target="_blank">קורות חיים
+        <img src="./Images/linkicon.png" class="link" alt="Link Image">
+      </a>
+    </div>
+  </section>
+
+  <section class="border" id="gallery">
+    <div class="container-fluid container-design">
+      <h3>עבודות נבחרות</h3>
+      <section class="card-design">
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/hereandnowth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Here & Now!</h5>
+            <p class="card-text">This project was made using HTML & CSS.</p>
+            <a href="hereANDnowPage.html" class="btn btn-primary">Link to Project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/coffeeth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Coffee</h5>
+            <p class="card-text">This project was made using HTML & CSS.</p>
+            <a href="coffeePage.html" class="btn btn-primary">Link to project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class=" card-image-container">
+            <img src="./Images/path15th.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Forward</h5>
+            <p class="card-text">This project was made using HTML, CSS & Bootstrap.</p>
+            <a href="./forwardPage.html" class="btn btn-primary">Link To Project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/spaceth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Space</h5>
+            <p class="card-text">This project was made with HTML & CSS.</p>
+            <a href="./spacePage.html" class="btn btn-primary">Link To Project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/collectionth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Collection</h5>
+            <p class="card-text">This project was make using HTML, CSS & Sass.</p>
+            <a href="./collectionPage.html" class="btn btn-primary">Link To Project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/consultationth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Consultation</h5>
+            <p class="card-text">This Project was made using HTML & CSS.</p>
+            <a href="consultationPage.html" class="btn btn-primary">Link To Project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/starsth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">To The Stars!</h5>
+            <p class="card-text">This Project was made using HTML & CSS.</p>
+            <a href="starsPage.html" class="btn btn-primary">Link To Project</a>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-image-container">
+            <img src="./Images/museumth.png" class="img-fluid card-img-top img-design" alt="...">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">To The Stars!</h5>
+            <p class="card-text">This Project was made using HTML & CSS.</p>
+            <a href="museumPage.html" class="btn btn-primary">Link To Project</a>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </section>
+
+  <section dir="rtl" id="contact">
+    <div class="container-fluid">
+      <h3>צור קשר</h3>
+      <form>
+        <label for="name">שם:</label> <br>
+        <input type="text" id="name" class="box-design" placeholder="רביד דבדה"> <br>
+        <label for="email">אימייל:</label> <br>
+        <input type="text" id="email" class="box-design" placeholder="example@example.com"> <br>
+        <label for="email">טלפון:</label> <br>
+        <input type="text" id="email" class="box-design" placeholder="050-1234567"> <br>
+        <label for="note">הודעה:</label> <br>
+        <input type="textarea" id="note" maxlength="150"> <br>
+        <input type="submit" id="send" value="שליחה">
+      </form>
+    </div>
+  </section>
+
+  <section dir="rtl" class="">
+    <div class="footer container-fluid">
+      <div>
+        <img src="./Images/phoneicon.png" alt="Phone Number">
+        <p>052-4307126</p>
+      </div>
+      <div>
+        <img src="./Images/locationicon.png" alt="Location">
+        <p>חיים גרינפלד 14 באר שבע</p>
+      </div>
+      <div>
+        <img src="./Images/emailicon.png" alt="Email">
+        <p>ravid521@gmail.com</p>
+      </div>
+      <div>
+        <img src="./Images/linkedin.png" alt="Linkedin">
+        <p dir="ltr">#Ravid_Davda</p>
+      </div>
+    </div>
+    <p class="copyright">כל הזכויות שמורות לרביד דבדה &copy;</p>
+  </section>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

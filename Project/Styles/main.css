@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  box-shadow: 1px 1px 3px black;
+}
+
+.profile {
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.profile img {
+  border-radius: 50%;
+}
+.profile a {
+  transition: opacity 0.1s ease-in-out;
+}
+.profile a:hover {
+  opacity: 0.5;
+}
+
+.intro {
+  padding-top: 20px;
+  margin-top: 2px;
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.885);
+  box-shadow: 1px 1px 5px black;
+}
+
+.projects {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.projects img {
+  margin: 10px;
+  width: 58px;
+  height: 50px;
+  transition: transform 0.1s ease-in-out;
+}
+
+.projects img:hover {
+  transform: scale(120%);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  height: auto;
+  text-align: center;
+  background-color: rgba(0, 255, 255, 0.885);
+}
+.footer img {
+  width: 40px;
+  margin: 15px;
+  transition: all 0.2s ease-in-out;
+}
+.footer img:hover {
+  transform: scale(120%);
+}
+
+.copyright {
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    display: block;
+  }
+}
+.personal-info {
+  text-align: center;
+  margin: 10px;
+}
+
+.personal-info img {
+  width: 300px;
+  border-radius: 50%;
+  transition: border-radius 0.3s;
+}
+
+.personal-info img:hover {
+  border-radius: 5px;
+}
+
+.personal-info a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  background-color: rgba(0, 255, 255, 0.885);
+  padding: 10px 20px;
+  border-radius: 35px;
+  color: black;
+  text-align: center;
+  transition: opacity 0.1s ease-in-out;
+}
+
+.personal-info a:hover {
+  opacity: 0.8;
+}
+
+.personal-info a img {
+  width: 25px;
+}
+
+@media screen and (max-width: 992px) {
+  .personal-info img {
+    width: 150px;
+  }
+}
+#contact {
+  background-image: url(../Images/emailbackgr.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #555;
+  background-position: 250px;
+  padding: 20px 250px;
+  color: white;
+  font-size: 1.2rem;
+}
+#contact #send {
+  border: none;
+  padding: 2px 92.5px;
+  margin-top: 28px;
+  border-radius: 2px;
+  background-color: #18c9e8;
+}
+
+#contact .box-design {
+  border-radius: 2px;
+  border: none;
+}
+
+@media screen and (max-width: 992px) {
+  #contact {
+    margin: 0 auto;
+    background-size: 200px;
+    background-position: center;
+    padding: 10px;
+  }
+}
+.container-design {
+  gap: 20px;
+  text-align: center;
+  padding: 20px 100px;
+  background-color: #dfdfdf;
+}
+
+.card-design {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  gap: 50px;
+  margin: 20px 0;
+}
+
+.card {
+  transition: all 0.1s ease-in-out;
+  overflow: hidden;
+  width: 18rem;
+  height: 400px;
+}
+
+.card-image-container {
+  transition: all 0.2s ease-in-out;
+  overflow: hidden;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 7px 7px 0 0;
+}
+
+.img-design {
+  transition: all 0.12s ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover .img-design {
+  transform: scale(130%);
+}
+
+@media screen and (max-width: 992px) {
+  .card-design {
+    grid-template-columns: auto;
+  }
+  .card {
+    width: 60%;
+    margin-left: 20%;
+  }
+  .container-design {
+    padding: 0;
+  }
+}
+.img-container-design {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 68vh;
+  background: rgb(38, 221, 255);
+  background: linear-gradient(345deg, rgb(38, 221, 255) 0%, rgb(255, 255, 255) 33%, rgb(38, 221, 255) 67%, rgb(255, 255, 255) 100%);
+}
+
+.img-container-design img {
+  width: 45%;
+  box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+.intro {
+  padding: 20px;
+}
+
+.intro a {
+  text-decoration: none;
+  font-size: 1.1rem;
+  background-color: rgba(0, 255, 255, 0.885);
+  padding: 10px 20px;
+  border-radius: 35px;
+  color: black;
+  text-align: center;
+  transition: opacity 0.1s ease-in-out;
+  border: 1px solid #000;
+}
+
+.intro a:hover {
+  opacity: 0.8;
+}/*# sourceMappingURL=main.css.map */

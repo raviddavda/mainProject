@@ -1,0 +1,35 @@
+$mainColor: rgba(0, 255, 255, 0.885);
+$mobile: 992px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif
+}
+
+@mixin mobile {
+  @media screen and (max-width: $mobile) {
+    @content;
+  }
+}
+
+@import "header";
+
+@import "intro";
+
+@import "projects";
+
+@import "footer";
+
+@import "info";
+
+@import "contact";
+
+@import "gallery";
+
+@import "projectPage"
